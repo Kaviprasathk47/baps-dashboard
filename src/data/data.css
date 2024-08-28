@@ -1,0 +1,27 @@
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px; /* Slightly increased radius for rounded corners */
+    border: 1px solid var(--black-primary); /* Border color using primary blue */
+    margin-bottom: 10px; /* Reduced bottom margin for compact spacing */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Faster transition */
+}
+
+.sidebar-item:hover {
+    background-color: var(--blue-accent); /* Accent blue on hover */
+}
+
+.icon {
+    margin-right: 10px;
+    color: var(--black-primary); /* Icon color using primary blue */
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black-dark); /* Dark blue text color */
+}
