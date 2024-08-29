@@ -1,17 +1,16 @@
 import React from "react";
 import SideBar from "./components/sidebar/sidebar";
 import "./App.css";
-import MainDash from './components/MainDash/Maindash'
+import MainDash from "./components/MainDash/Maindash";
 
 const App = () => {
+ // const [show,Setshow] = useState(true);
   return (
-    <div
-      className="bg-gradient-to-r from-[#ffe1cb] via-[#ffcfd1] to-[#f3c6f1]"
-      id="Amain"
-    >
-      <div className="AppGlass xl:auto ">
+    <div id="Amain">
+      <div className="AppGlass xl:auto mt-14">
         <SideBar />
-        <MainDash/>
+        <MainDash />
+
       </div>
     </div>
   );

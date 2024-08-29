@@ -1,6 +1,7 @@
 import React from "react";
 import MessageDetails from "../../data/Message.js";
-import PopUp from './popu.js'; // Ensure the case matches the file name
+import PopUp from './popup.js'; // Ensure the case matches the file name
+import './Message.css'
 
 const Message = () => {
   return (
@@ -17,7 +18,7 @@ const Message = () => {
           <div>{message.name}</div>
           <div>{message.reason}</div>
           <div>
-            <span className={`${message.approval !== "Approved" ? "bg-red-500" : "bg-cyan-500"} rounded-sm m-1 p-1 text-white`}>
+            <span className={`${message.approval !== "Approved" ? "bg-red-500" : "bg-cyan-500"} rounded-sm m-1 p-1 text-white Shadow`}>
               {message.approval}
             </span>
           </div>

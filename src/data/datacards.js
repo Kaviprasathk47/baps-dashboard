@@ -4,7 +4,7 @@ import { PiHandWithdrawLight } from 'react-icons/pi';
 
 const defaultColor = {
   backGround: "linear-gradient(180deg,#bb67ff 0%,#c484f3 100%)",
-  boxShadow: "0px 10px 20px 0px #e0c6f5",
+  boxShadow: "12px 12px 2px 1px rgba(0, 0, 255, .2)",
 };
 
 const CardData = [
@@ -16,7 +16,7 @@ const CardData = [
     png: <FaDollarSign />,
     series: [
       {
-        name: ["English","maths","tamil","Science"],
+        name: ["English","maths","tamil","Science","Computer"],
         data: [31, 45, 78, 54, 12],
       },
     ],
@@ -29,7 +29,7 @@ const CardData = [
     png: <PiHandWithdrawLight />,
     series: [
       {
-        name: "marketing",
+        name: ["English","maths","tamil","Science","Computer"],
         data: [31, 45, 78, 54, 12],
       },
     ],
@@ -42,11 +42,12 @@ const CardData = [
     png: <FaDollarSign />, // You might want to use a different icon
     series: [
       {
-        name: "development",
+        name: ["English","maths","tamil","Science","Computer"],
         data: [28, 40, 60, 70, 80], // Example data, you can adjust this
       },
     ],
   },
+ 
 ];
 
 export default CardData;

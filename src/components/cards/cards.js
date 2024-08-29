@@ -16,7 +16,8 @@ const CardsContainer = () => {
               value={card.value}
               barValue={card.barValue}
               color={card.color}
-              labels={Array.isArray(card.series[0].name) ? card.series[0].name : [card.series[0].name]} // Handles array of labels
+              labels={Array.isArray(card.series[0].name) ? card.series[0].name : [card.series[0].name]} 
+              index={index} // Passing index as a prop
             />
           </div>
         );
